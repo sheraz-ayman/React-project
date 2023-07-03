@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.hero {
+    background-color: #ddc7c2;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .hero-content {
+    text-align: center;
+    color: #ffffff;
+  }
+  
+  .hero-title {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  .CTA-btn{
+    width: 7rem;
+    height: 3rem;
+    background-color: #ffffff;
+    font-size: 15px;
+    border-style: none;
+    border-radius: 20px;
+    color:#dda394 ;
+  }
+
+  .CTA-btn:hover{
+    background-color: #ffffffe9;
+
+  }
+  
+  @media screen and (max-width: 768px) {
+    .hero {
+      height: 300px;
+    }
+  
+    .hero-title {
+      font-size: 32px;
+    }
+  }
+  
