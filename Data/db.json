@@ -1,11 +1,25 @@
 {
   "Posts": [
     {
-      "Name": "",
-      "post": "245xg42gx24g245g",
-      "image1": "https://avatars.githubusercontent.com/u/96360732",
+      "Name": "Mike",
+      "post": "Just enjoyed a refreshing morning walk in the park. The birds were singing, and the sun was shining. Feeling grateful for the simple joys of life",
+      "image1": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/180.jpg",
       "comments": [],
       "id": 1
+    },
+    {
+      "Name": "Ross",
+      "post": "\"Finally finished reading that book I've been meaning to complete. Highly recommend it to all book lovers out there! Now onto the next adventure",
+      "image1": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/912.jpg",
+      "comments": [],
+      "id": 3
+    },
+    {
+      "Name": "Ted",
+      "post": "When the world feels heavy and the path seems unclear, hold onto hope. Trust that the universe has a way of aligning things and guiding you towards a brighter tomorrow. Everything will be okay.",
+      "image1": "https://avatars.githubusercontent.com/u/1924546",
+      "comments": [],
+      "id": 4
     }
   ]
 }

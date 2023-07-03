@@ -33,7 +33,7 @@ const TestimonialSlider = () => {
 
   return (
     <div className='All'>
-    <h2 style={{textAlign:"center"}}>Testimonials</h2>
+    <h2 style={{textAlign:"center",color:"#dda394"}}>Testimonials</h2>
     <div className="testimonial-slider">
       <div className="slider-content">
         <div className="testimonial">

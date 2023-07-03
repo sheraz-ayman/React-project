@@ -5,7 +5,7 @@ import Hero from './components/Hero';
 import FeaturesOverview from './components/FeaturesOverview';
 import TestimonialSlider from './components/TestimonialSlider';
 import Footer from './components/Footer';
-import AboutUs from './components/AboutUs';
+import Post from './components/Post';
 import { Routes, Route } from "react-router-dom";
 import ContactUs from './components/Contact';
 
@@ -24,7 +24,7 @@ function App() {
               <TestimonialSlider/>
             </>
           }></Route>
-        <Route path='start' element={<AboutUs/>}></Route>
+        <Route path='post' element={<Post/>}></Route>
         <Route path='Contact' element={<ContactUs/>}></Route>
           </Routes>
       <Footer/>

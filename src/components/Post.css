@@ -1,0 +1,131 @@
+/* Post.css */
+.BigBig {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .BigElement {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .Name input,
+  .NewPost input {
+    padding: 10px;
+    margin-bottom: 15px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #45a050;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  .Mother-of-map {
+    display: flex;
+    align-items: center;
+    gap: 13px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .SHOWPost {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 400px;
+  }
+  
+  .PostUser {
+    display: flex;
+    align-items: center;
+  }
+  
+  .PostUserImage {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .PostUser h3 {
+    font-size: 18px;
+    margin: 0;
+  }
+  
+  .btns button {
+    margin-right: 10px;
+    font-size: 14px;
+  }
+  
+  p {
+    margin-top: 15px;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  .PostCreateComment {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+  }
+  
+  .PostCreateComment input {
+    padding: 10px;
+    margin-right: 10px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .CommentsStyle {
+    margin-top: 15px;
+  }
+  
+  .CommentStyle {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .CommentStyle img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .Time {
+    font-size: 14px;
+    margin-left: 5px;
+  }
+  

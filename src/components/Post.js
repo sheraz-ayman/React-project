@@ -2,8 +2,10 @@ import React from "react";
 import axios from "axios";
 import { faker } from "@faker-js/faker";
 import { useEffect, useState } from "react";
-// import "./News.css";
-function Start() {
+import "./Post.css";
+
+
+function Post() {
   let [Name, setName] = useState("");
   let [post, setpost] = useState("");
   let [comment, setcomment] = useState("");
@@ -38,12 +40,12 @@ function Start() {
     <div>
       <div className="BigBig">
         <div className="BigElement">
-          <h2>Any new about Amr?</h2>
+          <h1 style={{color:"#dda394" , marginBottom:"15px"}}>What's running through your head?</h1>
           <form onSubmit={FormSubmit}>
             <div className="Name">
               <input
                 type="text"
-                placeholder="your name"
+                placeholder="your Nick Name"
                 onChange={(e) => {
                   setName(e.target.value);
                 }}
@@ -53,7 +55,7 @@ function Start() {
             <div className="NewPost">
               <input
                 type="text"
-                placeholder="new post"
+                placeholder="share your thoughts"
                 onChange={(e) => {
                   setpost(e.target.value);
                   setPostEditValue(e.target.value);
@@ -63,7 +65,7 @@ function Start() {
             <button>Submit</button>
           </form>
         </div>
-        <div className="Mother-of-map">
+        <div className="Mother-of-map" key={post.id}>
           {posts.map((post) => (
             <div key={post.id} className="SHOWPost">
               <div className="PostUser">
@@ -83,6 +85,7 @@ function Start() {
                   Edit
                 </button>
                 <button
+                style={{backgroundColor:"red"}}
                   onClick={() => {
                     axios.delete(`http://localhost:3501/Posts/${post.id}`);
                     setrefresh(!refresh);
@@ -100,6 +103,7 @@ function Start() {
                   }}
                 />
                 <button
+                style={{fontSize:"10px"}}
                   onClick={() => {
                     const commentData = {
                       img: faker.image.avatar(),
@@ -113,7 +117,7 @@ function Start() {
                     setrefresh(!refresh);
                   }}
                 >
-                  Comment
+                  Add Comment
                 </button>
                
               </div>
@@ -136,4 +140,4 @@ function Start() {
   );
 }
 
-export default Start;
+export default Post;
