@@ -24,17 +24,23 @@
     margin-bottom: 20px;
   }
   .CTA-btn{
-    width: 7rem;
-    height: 3rem;
+    width: 8rem;
+    height: 5rem;
+    padding: 0.5rem;
     background-color: #ffffff;
-    font-size: 15px;
+    font-size: 18px;
     border-style: none;
     border-radius: 20px;
     color:#dda394 ;
+    text-decoration: none;
+    transition: 0.3s;
   }
 
   .CTA-btn:hover{
     background-color: #ffffffe9;
+    
+    padding:0.7rem;
+
 
   }
   
